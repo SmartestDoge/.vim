@@ -14,7 +14,8 @@ set mat=2
 syntax enable
 set background=dark
 " colorscheme solarized
-colorscheme molokai
+" colorscheme molokai
+colorscheme inkpot
 " set background=dark
 set encoding=utf8
 set ffs=unix,dos,mac
