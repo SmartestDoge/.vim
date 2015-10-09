@@ -31,6 +31,12 @@ set nowrap "Wrap lines
 
 map j gj
 map k gk
+if &term == 'xterm'
+        set <C-Right>=[C
+        set <C-Left>=[D
+endif
+nnoremap <C-Left> :bp<CR>
+nnoremap <C-Right> :bn<CR>
 
 " Using w!!, you manage to write a file with sudo permissions,
 " (in case you forgot when opening)
