@@ -1,5 +1,9 @@
+if has('win32') || has('win64')
+    set runtimepath=$HOME/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,$HOME/.vim/after
+endif
 "Move this file to ~/.vimrc, but leave everything else in ~/.vim/
 execute pathogen#infect()
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set t_Co=256
 set nu
